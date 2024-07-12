@@ -1,0 +1,25 @@
+{
+  "name": "c-al-grammar",
+  "displayName": "c-al-grammar",
+  "description": "Highlight C/AL code stored in TXT files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "c-al",
+      "aliases": ["C/AL", "c-al"],
+      "extensions": [".txt",".cal"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "c-al",
+      "scopeName": "source.c-al",
+      "path": "./syntaxes/c-al.tmLanguage.json"
+    }]
+  }
+}
