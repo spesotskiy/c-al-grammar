@@ -1,0 +1,30 @@
+{
+    "Snippet: C/AL Codeunit": {
+        "prefix": "ccodeunit",
+        "body": [
+            "OBJECT Codeunit ${1:Id} ${2:MyCodeunit}",
+            "{",
+            "OBJECT-PROPERTIES",
+            "  {",
+            "    Date=01.01.01;",
+            "    Time=12:00:00;",
+            "    Version List=${3:MyVersion};",
+            "  }",
+            "  PROPERTIES",
+            "  {",
+            "    OnRun=BEGIN",
+            "          END;",
+            "",
+            "  }",
+            "  CODE",
+            "  {",
+            "",
+            "    BEGIN",
+            "    END.",
+            "  }",
+            "}",
+            ""
+        ],
+        "description": "Snippet: C/AL Codeunit"
+    }
+}
